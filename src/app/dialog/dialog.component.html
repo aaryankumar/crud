@@ -1,9 +1,15 @@
 <h1 mat-dialog-title>Add Dialog Form</h1>
 <div class="mat-dialog-content">
   <mat-form-field appearance="outline">
-    <mat-label>Outline form field</mat-label>
-    <input matInput placeholder="Placeholder" />
-    <mat-icon matSuffix>sentiment_very_satisfied</mat-icon>
-    <mat-hint>Hint</mat-hint>
+    <mat-label>Product name</mat-label>
+    <input matInput placeholder="Name" />
+  </mat-form-field>
+  <mat-form-field appearance="outline">
+    <mat-label>Product Category</mat-label>
+    <mat-select placeholder="category">
+      <mat-option value="Fruits">Fruits</mat-option>
+      <mat-option value="Vegetables">Vegetables</mat-option>
+      <mat-option value="Electronics">Electronics</mat-option>
+    </mat-select>
   </mat-form-field>
 </div>
